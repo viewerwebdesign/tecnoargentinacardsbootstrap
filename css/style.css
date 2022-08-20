@@ -1,0 +1,1202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: azure;
+}
+
+
+
+/*SECTION CLIENTES*/
+
+
+.al-servicio-de .h2{
+    text-align: center;
+    font-weight: 700;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color:rgb(0, 0, 0);
+}
+
+.row-clientes{
+    text-align: center;
+}
+.row-clientes img{
+    margin-top: 4%;
+    text-align: center;
+    width: 10vw;
+    padding-bottom: 6%;
+}
+.row-clientes img:hover{
+    margin-top: 4%;
+    text-align: center;
+    width: 10vw;
+}
+
+.copyright{
+    background-color: rgb(44, 44, 61);
+}
+
+
+
+/******************************/
+/*MEDIA QUERY MIN-WIDTH: 320PX*/
+/******************************/
+
+
+
+@media (min-width: 320px) and (max-width: 575px){
+
+    
+    nav{
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      .container-fluid{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        z-index: 500;
+        background-color: rgb(0, 0, 0);
+        top: 0;
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      
+    .navbar{
+        width: 10%;
+      }
+      
+    .navbar-collapse{
+        display: flex;
+        justify-content: left;
+        
+        width: 10%;
+    }
+    .navbar-brand img{
+        width: 12vh;
+        height: 12vh;
+        margin-left: 1%;
+    }
+    
+    .carousel-inner{
+        margin-top: 11vh;
+        height: 30vh;
+      
+      
+    }
+    .carousel-item img{
+        height: 30vh;
+    }
+    /*QUIENES SOMOS*/
+    
+    .section-somos{
+        margin: 5%;
+    }
+    
+    .section-somos h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .section-somos p{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    
+    /*SERVICIOS*/
+    
+    .section-servicios{
+        box-shadow: 1px 1px 15px rgb(85, 87, 86);
+        padding-bottom: 5%;
+        text-align: center;
+        background-color: rgb(97, 114, 114);
+        background-image: none;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 5%; 
+    }
+    
+    .section-servicios h2{
+        font-size: 1.5em;
+        color: #ffffff;
+        padding-top: 7%;
+    }
+    
+    .row-servicios{
+        margin-top: 5%;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0%;
+    }
+    
+    .servicios h4{
+        font-size: 1em;
+        margin-top: 7%;
+        color: rgb(255, 255, 255);
+    }
+    
+    .servicios img{
+        margin: 0%;
+        max-width: 50%;
+        max-height: 30%;
+        border-radius: 5%;
+        border: 2px solid white;
+        box-sizing: border-box;
+        
+    }
+    .alarmas h4{
+        margin-bottom: 0% ;
+    }
+    .servicios img:hover{
+        border: 2px solid rgb(170, 169, 169);
+    }
+    /*NUESTRAS OBRAS*/
+    
+    .section-nuestasobras{
+        margin: 5%;
+        box-shadow: 1px 1px 15px rgb(85, 87, 86);
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: rgb(53, 58, 56);
+    }
+    
+    .h2{
+        text-align: center;
+        font-weight: 700;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color:white;
+    }
+    .h3{
+        margin-left: 0%;
+        text-align: center;
+        color: white;
+    }
+    
+    .section-nuestasobras .obras{
+        text-align: center;
+    }
+    
+    ul{
+        text-align: left;
+        font-weight: 900;
+        list-style: none;
+        color: white;
+    }
+    
+    /*FOOTER*/
+    
+    footer{
+        background-color: rgb(15, 31, 61);
+        
+    }
+    footer h2{
+        text-align: center;
+        color: white;
+        margin: 3%;
+        padding-top: 3%;
+    }
+    
+    footer a{
+        color: white;
+    }
+    .contacto{
+        text-align: center;
+    }
+    .fa-solid, .fa-brands{
+        font-size: 1.5em;
+    }
+    footer p{
+        margin-top: 2%;
+        color: white;
+    }
+    .copyright{
+        background-color: rgb(49, 49, 59);
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+    }
+    .copyright a{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    .copyright h5{
+        margin: 0%;
+    }
+  
+  
+  }
+
+  
+
+  /******************************/
+  /*MEDIA QUERY MIN-WIDTH: 576PX*/ 
+  /******************************/
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px){
+
+    nav{
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      .container-fluid{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        z-index: 500;
+        background-color: rgb(0, 0, 0);
+        top: 0%;
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      
+      .navbar{
+        width: 10%;
+      }
+      
+      .navbar-collapse{
+        display: flex;
+        justify-content: left;
+        width: 10%;
+      }
+      .navbar-brand img{
+        width: 15vh;
+        height: 16vh;
+        margin-left: 20%;
+      }
+    
+    
+
+    
+    .carousel-inner{
+        margin-top: 15vh;
+        height: 40vh;
+    }
+    .carousel-item img{
+        height: 40vh;
+    }
+    /*QUIENES SOMOS*/
+    
+    .section-somos{
+        margin: 5%;
+    }
+    
+    .section-somos h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .section-somos p{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    
+    /*SERVICIOS*/
+    
+    .section-servicios{
+        box-shadow: 1px 1px 15px rgb(85, 87, 86);
+        padding-bottom: 5%;
+        text-align: center;
+        background-color: rgb(97, 114, 114);
+        background-image: none;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 5%; 
+    }
+    
+    .section-servicios h2{
+        font-size: 1.5em;
+        color: #ffffff;
+        padding-top: 7%;
+    }
+    
+    .row-servicios{
+        margin-top: 5%;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0%;
+    }
+    
+    .servicios h4{
+        font-size: 1em;
+        margin-top: 7%;
+        color: rgb(255, 255, 255);
+    }
+    
+    .servicios img{
+        margin: 0%;
+        max-width: 50%;
+        max-height: 30%;
+        border-radius: 5%;
+        border: 2px solid white;
+        box-sizing: border-box;
+        
+    }
+    .alarmas h4{
+        margin-bottom: 0% ;
+    }
+    .servicios img:hover{
+        border: 2px solid rgb(170, 169, 169);
+    }
+    /*NUESTRAS OBRAS*/
+    
+    .section-nuestasobras{
+        margin: 5%;
+        box-shadow: 1px 1px 15px rgb(85, 87, 86);
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: rgb(53, 58, 56);
+    }
+    
+    .h2{
+        text-align: center;
+        font-weight: 700;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color:white;
+    }
+    .h3{
+        margin-left: 0%;
+        text-align: center;
+        color: white;
+    }
+    
+    .section-nuestasobras .obras{
+        text-align: center;
+    }
+    
+    ul{
+        text-align: left;
+        font-weight: 900;
+        list-style: none;
+        color: white;
+    }
+    
+    /*FOOTER*/
+    
+    footer{
+        background-color: rgb(15, 31, 61);
+        
+    }
+    footer h2{
+        text-align: center;
+        color: white;
+        margin: 3%;
+        padding-top: 3%;
+    }
+    
+    footer a{
+        color: white;
+    }
+    .contacto{
+        text-align: center;
+    }
+    .fa-solid, .fa-brands{
+        font-size: 1.5em;
+    }
+    footer p{
+        text-align: center;
+        margin-top: 2%;
+        color: white;
+    }
+   
+    .copyright{
+        background-color: rgb(49, 49, 59);
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .copyright a{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    .copyright h5{
+        margin: 0%;
+    }
+  
+  
+  }
+
+
+  /******************************/
+  /*MEDIA QUERY MIN-WIDTH: 768PX*/ 
+  /******************************/
+
+
+
+
+
+  
+@media (min-width: 768px) and (max-width: 991px){
+
+    nav{
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      .container-fluid{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        z-index: 500;
+        background-color: rgb(0, 0, 0);
+        top: 0%;
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      
+      .navbar{
+        width: 10%;
+      }
+      
+      .navbar-collapse{
+        display: flex;
+        justify-content: left;
+        width: 10%;
+      }
+      .navbar-brand img{
+        width: 15vh;
+        height: 16vh;
+        margin-left: 20%;
+      }
+    
+    .carousel-inner{
+      margin-top: 15vh;
+      height: 50vh;
+      
+      
+    }
+    .carousel-item img{
+      height: 50vh;
+    }
+    /*QUIENES SOMOS*/
+    
+    .section-somos{
+        margin: 5%;
+    }
+    
+    .section-somos h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .section-somos p{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    
+    /*SERVICIOS*/
+    
+    .section-servicios{
+        box-shadow: 1px 1px 15px rgb(85, 87, 86);
+        padding-bottom: 5%;
+        text-align: center;
+        background-color: rgb(97, 114, 114);
+        background-image: none;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 5%; 
+    }
+    
+    .section-servicios h2{
+        font-size: 1.5em;
+        color: #ffffff;
+        padding-top: 7%;
+    }
+    
+    .row-servicios{
+        margin-top: 5%;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0%;
+    }
+    
+    .servicios h4{
+        font-size: 1em;
+        margin-top: 7%;
+        color: rgb(255, 255, 255);
+    }
+    
+    .servicios img{
+        margin: 0%;
+        max-width: 50%;
+        max-height: 30%;
+        border-radius: 5%;
+        border: 2px solid white;
+        box-sizing: border-box;
+        
+    }
+    .alarmas h4{
+        margin-bottom: 0% ;
+    }
+    .servicios img:hover{
+        border: 2px solid rgb(170, 169, 169);
+    }
+    /*NUESTRAS OBRAS*/
+    
+    .section-nuestasobras{
+        margin: 5%;
+        box-shadow: 1px 1px 15px rgb(85, 87, 86);
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: rgb(53, 58, 56);
+    }
+    
+    .h2{
+        text-align: center;
+        font-weight: 700;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color:white;
+    }
+    .h3{
+        margin-left: 0%;
+        text-align: center;
+        color: white;
+    }
+    
+    .section-nuestasobras .obras{
+        text-align: center;
+    }
+    
+    ul{
+        text-align: left;
+        font-weight: 900;
+        list-style: none;
+        color: white;
+    }
+    
+    /*FOOTER*/
+    
+    footer{
+        background-color: rgb(15, 31, 61);
+        
+    }
+    footer h2{
+        text-align: center;
+        color: white;
+        margin: 3%;
+        padding-top: 3%;
+    }
+    
+    footer a{
+        color: white;
+    }
+    .contacto{
+        text-align: center;
+    }
+    .fa-solid, .fa-brands{
+        font-size: 1.5em;
+    }
+    footer p{
+        margin-top: 2%;
+        color: white;
+    }
+    .copyright{
+        background-color: rgb(49, 49, 59);
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+    }
+    .copyright a{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    .copyright h5{
+        margin: 0%;
+    }
+  
+  
+}
+
+
+
+  /******************************/
+  /*MEDIA QUERY MIN-WIDTH: 992PX*/ 
+  /******************************/
+
+  @media (min-width: 992px){
+    /*NAV*/
+    nav{
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      .container-fluid{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        z-index: 500;
+        background-color: rgb(0, 0, 0);
+        top: 0;
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      
+      .navbar{
+        width: 10%;
+      }
+      
+      .navbar-collapse{
+        display: flex;
+        justify-content: right;
+        
+        width: 10%;
+      }
+      .navbar-brand img{
+        width: 15vh;
+        height: 16vh;
+        margin-left: 20%;
+      }
+    
+    
+    /*CARRUSEL*/
+    
+    .carousel-inner{
+        margin-top: 15vh;
+        height: 70vh;
+    }
+    .carousel-item img{
+        height: 70vh;
+    }
+    
+    /*QUIENES SOMOS*/
+    
+    .section-somos{
+        margin: 5%;
+    }
+    
+    .section-somos h1{
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .section-somos p{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    
+    /*SERVICIOS*/
+    
+    .section-servicios{
+        box-shadow: 1px 1px 15px rgb(85, 87, 86);
+        padding: 3%;
+        text-align: center;
+        background-image: url(../imagenes/FIBRAFONDO1.png);
+        background-size: cover;
+        background-attachment: fixed;
+        max-height: 80vh;
+    }
+    
+    .section-servicios h2{
+        color: white;
+    }
+    
+    .row-servicios{
+        margin-top: 5%;
+        display: flex ;
+        justify-content: space-evenly;
+        padding-bottom: 0%;
+    }
+    
+    .servicios h4{
+        font-size: 1em;
+        margin: 8%;
+        color: white;
+    }
+    
+    .servicios img{
+        margin: 0%;
+        width: 100%;
+        height: 50%;
+        border-radius: 5%;
+        border: 2px solid white;
+        
+    }
+    .alarmas h4{
+        margin-bottom: 19% ;
+    }
+    .servicios img:hover{
+        border: 2px solid rgb(170, 169, 169);
+    
+    }
+    /*NUESTRAS OBRAS*/
+    
+    .section-nuestasobras{
+        margin: 5%;
+        box-shadow: 1px 1px 15px rgb(85, 87, 86);
+        background-image: url(../imagenes/fondo-header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: rgb(53, 58, 56);
+       
+    }
+    
+    .h2{
+        text-align: center;
+        font-weight: 700;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color:white;
+    }
+    .h3{
+        margin-left: 2%;
+        text-align: center;
+        color: white;
+    }
+    
+    .section-nuestasobras .obras{
+        text-align: center;
+    }
+    
+    ul{
+        font-weight: 900;
+        list-style: none;
+        color: white;
+    }
+    
+    /*FOOTER*/
+    
+    footer{
+        background-color: rgb(15, 31, 61);
+        
+    }
+    footer h2{
+        text-align: center;
+        color: white;
+        margin: 3%;
+        padding-top: 3%;
+    }
+    
+    footer a{
+        color: white;
+    }
+    .contacto{
+        text-align: center;
+    }
+    .fa-solid, .fa-brands{
+        font-size: 1.5em;
+    }
+    footer p{
+        margin-top: 2%;
+        color: white;
+    }
+    .copyright{
+        background-color: rgb(49, 49, 59);
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .copyright a{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    .copyright h5{
+        margin: 0%;
+    }
+}
+
+
+
+
+
+  /*******************************/
+  /*MEDIA QUERY MIN-WIDTH: 1024PX*/ 
+  /*******************************/
+
+  @media (min-width: 1024px){
+    /*NAV*/
+    nav{
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      .container-fluid{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        z-index: 500;
+        background-color: rgb(0, 0, 0);
+        top: 0;
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      
+      .navbar{
+        width: 10%;
+      }
+      
+      .navbar-collapse{
+        display: flex;
+        justify-content: right;
+        
+        width: 10%;
+      }
+      .navbar-brand img{
+        width: 15vh;
+        height: 16vh;
+        margin-left: 20%;
+      }
+    
+    
+    /*CARRUSEL*/
+    
+    .carousel-inner{
+        margin-top: 15vh;
+        height: 70vh;
+    }
+    .carousel-item img{
+        height: 70vh;
+    }
+    
+    /*QUIENES SOMOS*/
+    
+    .section-somos{
+        margin: 5%;
+    }
+    
+    .section-somos h1{
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .section-somos p{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    
+    /*SERVICIOS*/
+    
+    .section-servicios{
+        box-shadow: 1px 1px 15px rgb(85, 87, 86);
+        padding: 3%;
+        text-align: center;
+        background-image: url(../imagenes/FIBRAFONDO1.png);
+        background-size: cover;
+        background-attachment: fixed;
+        max-height: 80vh;
+    }
+    
+    .section-servicios h2{
+        color: white;
+    }
+    
+    .row-servicios{
+        margin-top: 5%;
+        display: flex ;
+        justify-content: space-evenly;
+        padding-bottom: 0%;
+    }
+    
+    .servicios h4{
+        font-size: 1em;
+        margin: 8%;
+        color: white;
+    }
+    
+    .servicios img{
+        margin: 0%;
+        width: 100%;
+        height: 50%;
+        border-radius: 5%;
+        border: 2px solid white;
+        
+    }
+    .alarmas h4{
+        margin-bottom: 19% ;
+    }
+    .servicios img:hover{
+        border: 2px solid rgb(170, 169, 169);
+    
+    }
+    /*NUESTRAS OBRAS*/
+    
+    .section-nuestasobras{
+        margin: 5%;
+        box-shadow: 1px 1px 15px rgb(85, 87, 86);
+        background-image: url(../imagenes/fondo-header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: rgb(53, 58, 56);
+       
+    }
+    
+    .h2{
+        text-align: center;
+        font-weight: 700;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color:white;
+    }
+    .h3{
+        margin-left: 2%;
+        text-align: center;
+        color: white;
+    }
+    
+    .section-nuestasobras .obras{
+        text-align: center;
+    }
+    
+    ul{
+        font-weight: 900;
+        list-style: none;
+        color: white;
+    }
+    
+    /*FOOTER*/
+    
+    footer{
+        background-color: rgb(15, 31, 61);
+        
+    }
+    footer h2{
+        text-align: center;
+        color: white;
+        margin: 3%;
+        padding-top: 3%;
+    }
+    
+    footer a{
+        color: white;
+    }
+    .contacto{
+        text-align: center;
+    }
+    .fa-solid, .fa-brands{
+        font-size: 1.5em;
+    }
+    footer p{
+        margin-top: 2%;
+        color: white;
+    }
+    .copyright{
+        background-color: rgb(49, 49, 59);
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+    }
+    .copyright a{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    .copyright h5{
+        margin: 0%;
+    }
+    }
+
+
+
+
+  /*******************************/
+  /*MEDIA QUERY MIN-WIDTH: 1200PX*/ 
+  /*******************************/
+
+
+
+  @media (min-width: 1200px){
+    /*NAV*/
+    nav{
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      .container-fluid{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        z-index: 500;
+        background-color: rgb(0, 0, 0);
+        top: 0;
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      
+      .navbar{
+        width: 10%;
+      }
+      
+      .navbar-collapse{
+        display: flex;
+        justify-content: right;
+        
+        width: 10%;
+      }
+      .navbar-brand img{
+        width: 15vh;
+        height: 16vh;
+        margin-left: 20%;
+      }
+    
+    
+    /*CARRUSEL*/
+    
+    .carousel-inner{
+        margin-top: 15vh;
+        height: 70vh;
+    }
+    .carousel-item img{
+        height: 70vh;
+    }
+    
+    /*QUIENES SOMOS*/
+    
+    .section-somos{
+        margin: 5%;
+    }
+    
+    .section-somos h1{
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .section-somos p{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    
+    /*SERVICIOS*/
+    
+    .section-servicios{
+        box-shadow: 1px 1px 15px rgb(85, 87, 86);
+        padding: 3%;
+        text-align: center;
+        background-image: url(../imagenes/FIBRAFONDO1.png);
+        background-size: cover;
+        background-attachment: fixed;
+        max-height: 80vh;
+    }
+    
+    .section-servicios h2{
+        color: white;
+    }
+    
+    .row-servicios{
+        margin-top: 5%;
+        display: flex ;
+        justify-content: space-evenly;
+        padding-bottom: 0%;
+    }
+    
+    .servicios h4{
+        font-size: 1em;
+        margin: 8%;
+        color: white;
+    }
+    
+    .servicios img{
+        margin: 0%;
+        width: 100%;
+        height: 50%;
+        border-radius: 5%;
+        border: 2px solid white;
+        
+    }
+    .alarmas h4{
+        margin-bottom: 19% ;
+    }
+    .servicios img:hover{
+        border: 2px solid rgb(170, 169, 169);
+    
+    }
+    /*NUESTRAS OBRAS*/
+    
+    .section-nuestasobras{
+        margin: 5%;
+        box-shadow: 1px 1px 15px rgb(85, 87, 86);
+        background-image: url(../imagenes/fondo-header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: rgb(53, 58, 56);
+       
+    }
+    
+    .h2{
+        text-align: center;
+        font-weight: 700;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color:white;
+    }
+    .h3{
+        margin-left: 2%;
+        text-align: center;
+        color: white;
+    }
+    
+    .section-nuestasobras .obras{
+        text-align: center;
+    }
+    
+    ul{
+        font-weight: 900;
+        list-style: none;
+        color: white;
+    }
+    
+    /*FOOTER*/
+    
+    footer{
+        background-color: rgb(15, 31, 61);
+        
+    }
+    footer h2{
+        text-align: center;
+        color: white;
+        margin: 3%;
+        padding-top: 3%;
+    }
+    
+    footer a{
+        color: white;
+    }
+    .contacto{
+        text-align: center;
+    }
+    .fa-solid, .fa-brands{
+        font-size: 1.5em;
+    }
+    footer p{
+        margin-top: 2%;
+        color: white;
+    }
+    .copyright{
+        background-color: rgb(49, 49, 59);
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .copyright a{
+        
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    .copyright h5{
+        margin: 0%;
+    }
+}
